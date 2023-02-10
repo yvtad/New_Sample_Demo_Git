@@ -1,43 +1,42 @@
-13:52:05.248 INFO      TOPAZ            ***************************************
-13:52:05.248 INFO      TOPAZ            ** Execution from Topaz with options **
-13:52:05.248 INFO      TOPAZ            ***************************************
-13:52:05.248 INFO      TOPAZ            Using repository: true
-13:52:05.248 INFO      TOPAZ            Repository URL: http://aus-bdc-cwcc.bmc.com:2020/totaltestapi/
-13:52:05.248 INFO      TOPAZ            ***************************************
-13:52:05.249 INFO      Engine           Test Scenario execution started
-13:52:05.249 INFO      Engine           Using context settings:
+13:00:41.713 INFO      TOPAZ            ***************************************
+13:00:41.714 INFO      TOPAZ            ** Execution from Topaz with options **
+13:00:41.714 INFO      TOPAZ            ***************************************
+13:00:41.715 INFO      TOPAZ            Using repository: false
+13:00:41.715 INFO      TOPAZ            ***************************************
+13:00:41.720 INFO      Engine           Test Scenario execution started
+13:00:41.723 INFO      Engine           Using context settings:
   Engine Version                : 20.13.1.v20221223-1346_92
-  Environment id                : 5b508b8a787be73b59238d38
+  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : cwcc.bmc.com
+  Server address                : 198.147.191.81
   Server port                   : 16196
   Job execution timeout seconds : 600
   Job info interval seconds     : 3
   Socket read timeout           : 30
   Encoding                      : ISO8859-1
-  Codepage                      : IBM-1047
+  Codepage                      : 1047
   Host user Id                  : HBOYXN0
-  Use Repository Server         : true
+  Use Repository Server         : false
   Account Information           : 
   Dataset High Level Qualifier  : 
-13:52:05.249 INFO      Engine           Setting variables from context and context data extensions
-13:52:05.249 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
-13:52:05.249 INFO      Engine             id: environmentType    value: BATCH
-13:52:05.249 INFO      Engine             id: userId             value: HBOYXN0
-13:52:05.249 INFO      Engine             id: accountingInfo     value: 
-13:52:05.249 INFO      Engine             id: datasetHQL         value: 
-13:52:05.249 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
-13:52:05.252 INFO      Unittest         Using JCL skeleton to submit JCL
-13:52:08.403 INFO      CWCC Batch       Sending Job execution request to Host 
-13:52:13.510 INFO      CWCC Batch       Job execution completed with status:
+13:00:41.723 INFO      Engine           Setting variables from context and context data extensions
+13:00:41.724 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+13:00:41.729 INFO      Engine             id: environmentType    value: BATCH
+13:00:41.730 INFO      Engine             id: userId             value: HBOYXN0
+13:00:41.730 INFO      Engine             id: accountingInfo     value: 
+13:00:41.730 INFO      Engine             id: datasetHQL         value: 
+13:00:41.734 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
+13:00:41.964 INFO      Unittest         Using JCL skeleton to submit JCL
+13:00:45.237 INFO      CWCC - Demo System Sending Job execution request to Host 
+13:00:50.391 INFO      CWCC - Demo System Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HBOYXN0A(J0355266) ended with return code: 0000
+  Job status msg : Job HBOYXN0A(J0355949) ended with return code: 0000
   Job name       : HBOYXN0A
-  Job id         : J0355266
+  Job id         : J0355949
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-13:52:16.167 INFO      Unittest         Execution completed
-13:52:16.167 INFO      Engine           Test Scenario execution ended
+13:00:51.831 INFO      Unittest         Execution completed
+13:00:51.832 INFO      Engine           Test Scenario execution ended
