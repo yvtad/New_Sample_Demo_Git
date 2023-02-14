@@ -7,7 +7,7 @@
       <Value>HBOYXN0.XPED.LOAD.PDSE</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTCOBX" caseInsensitiveCompare="false" path="CWKTCOBX_Scenario.context">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTCOBX" caseInsensitiveCompare="false" path="CWKTCOBX_Scenario.testscenario">
     <Test>
       <Unittest testscenariopath="CWKTCOBX_Scenario.testscenario" moduleName="CWKTCOBX" />
     </Test>
