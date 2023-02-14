@@ -3,7 +3,7 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2023-02-09 13:52.29��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2023-02-14 13:52.44��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),ARGTYPE(��������)
  STTR013I Processing test suite CWXTCOB_Scenario
  STTR014I Processing test scenario CWXTCOB_Scenario
