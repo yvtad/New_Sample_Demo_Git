@@ -1,7 +1,7 @@
 <Connections>
   <Connection>
     <id>3733a884-8048-4e92-a5dc-22fee13c3d54</id>
-    <ipaddress>198.147.191.81</ipaddress>
+    <ipaddress>cwcc.bmc.com</ipaddress>
     <port>16196</port>
     <socketType>HCI</socketType>
     <databaseUri>jdbc:db2://198.147.191.81:&lt;port&gt;/${database}</databaseUri>
