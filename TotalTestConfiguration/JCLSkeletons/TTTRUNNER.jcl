@@ -29,6 +29,7 @@ ${JOBCARD}
 //*
 //* The following lines will initialize storage to zeroes to avoid 
 //* uninitialized storage assertion miscompares.
+//SLSF001 DD DSN=SALESSUP.YXN1.QA1.LISTING,DISP=SHR
 //CEEOPTS  DD  *
 STORAGE(00,00,00)
 /*
