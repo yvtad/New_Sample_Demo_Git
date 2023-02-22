@@ -32,7 +32,7 @@
     </jclproperties>
   </Connection>
   <Connection>
-    <id>172.19.4.200:16196</id>
+    <id>cwcc.bmc.com:16196</id>
     <ipaddress>172.19.4.200</ipaddress>
     <port>16196</port>
     <socketType>HCI</socketType>
