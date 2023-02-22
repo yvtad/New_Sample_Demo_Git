@@ -1,10 +1,10 @@
-14:42:22.463 INFO      TOPAZ            ***************************************
-14:42:22.464 INFO      TOPAZ            ** Execution from Topaz with options **
-14:42:22.464 INFO      TOPAZ            ***************************************
-14:42:22.465 INFO      TOPAZ            Using repository: false
-14:42:22.465 INFO      TOPAZ            ***************************************
-14:42:22.468 INFO      Engine           Test Scenario execution started
-14:42:22.470 INFO      Engine           Using context settings:
+14:50:17.825 INFO      TOPAZ            ***************************************
+14:50:17.825 INFO      TOPAZ            ** Execution from Topaz with options **
+14:50:17.825 INFO      TOPAZ            ***************************************
+14:50:17.826 INFO      TOPAZ            Using repository: false
+14:50:17.826 INFO      TOPAZ            ***************************************
+14:50:17.826 INFO      Engine           Test Scenario execution started
+14:50:17.827 INFO      Engine           Using context settings:
   Engine Version                : 20.13.1.v20221223-1346_92
   Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
   Environment type              : Batch
@@ -21,22 +21,22 @@
   Use Repository Server         : false
   Account Information           : 
   Dataset High Level Qualifier  : 
-14:42:22.470 INFO      Engine           Setting variables from context and context data extensions
-14:42:22.471 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
-14:42:22.474 INFO      Engine             id: environmentType    value: BATCH
-14:42:22.474 INFO      Engine             id: userId             value: HBOYXN0
-14:42:22.475 INFO      Engine             id: accountingInfo     value: 
-14:42:22.475 INFO      Engine             id: datasetHQL         value: 
-14:42:22.477 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
-14:42:22.646 INFO      Unittest         Using JCL skeleton to submit JCL
-14:42:26.439 INFO      CWCC - Demo System Sending Job execution request to Host 
-14:42:31.583 INFO      CWCC - Demo System Job execution completed with status:
+14:50:17.827 INFO      Engine           Setting variables from context and context data extensions
+14:50:17.827 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+14:50:17.827 INFO      Engine             id: environmentType    value: BATCH
+14:50:17.827 INFO      Engine             id: userId             value: HBOYXN0
+14:50:17.827 INFO      Engine             id: accountingInfo     value: 
+14:50:17.827 INFO      Engine             id: datasetHQL         value: 
+14:50:17.827 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
+14:50:17.831 INFO      Unittest         Using JCL skeleton to submit JCL
+14:50:20.221 INFO      CWCC - Demo System Sending Job execution request to Host 
+14:50:25.341 INFO      CWCC - Demo System Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HBOYXN0A(J0363337) ended with return code: 0012
+  Job status msg : Job HBOYXN0A(J0363348) ended with return code: 0000
   Job name       : HBOYXN0A
-  Job id         : J0363337
-  Return code    : 0012
+  Job id         : J0363348
+  Return code    : 0000
   Abend code     : 
   Abend reason   : 
-14:42:32.582 INFO      Unittest         Execution completed
-14:42:32.582 INFO      Engine           Test Scenario execution ended
+14:50:26.334 INFO      Unittest         Execution completed
+14:50:26.334 INFO      Engine           Test Scenario execution ended
