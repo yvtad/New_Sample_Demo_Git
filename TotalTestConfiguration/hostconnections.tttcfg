@@ -1,7 +1,7 @@
 <Connections>
   <Connection>
     <id>3733a884-8048-4e92-a5dc-22fee13c3d54</id>
-    <ipaddress>cwcc.bmc.com</ipaddress>
+    <ipaddress>198.147.191.81</ipaddress>
     <port>16196</port>
     <socketType>HCI</socketType>
     <databaseUri>jdbc:db2://198.147.191.81:&lt;port&gt;/${database}</databaseUri>
@@ -29,6 +29,22 @@
     <datasethlq />
     <jclproperties>
       <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>172.19.4.200:16196</id>
+    <ipaddress>172.19.4.200</ipaddress>
+    <port>16196</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://172.19.4.200:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>CW01</description>
+    <label>CW01</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
     </jclproperties>
   </Connection>
 </Connections>
