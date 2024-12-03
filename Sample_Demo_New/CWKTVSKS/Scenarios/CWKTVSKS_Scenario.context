@@ -2,12 +2,11 @@
 <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
   <ExtensionData>
     <Parameter key="unittest.loadlibraries">
-      <Value>SALESSUP.YXN1.DEV1.LOAD</Value>
       <Value>SALESSUP.YXN1.QA1.LOAD</Value>
       <Value>SALESSUP.YXN1.PRD.LOAD</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTVSKS" caseInsensitiveCompare="false" path="CWKTVSKS_Scenario.testscenario">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTVSKS" caseInsensitiveCompare="false" path="CWKTVSKS_Scenario.context">
     <Test>
       <Unittest testscenariopath="CWKTVSKS_Scenario.testscenario" moduleName="CWKTVSKS" />
     </Test>
