@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HBOYXN0.TEST.REPOSIT" ccsystem="TEST135" cctestid="TEST135" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="true" ccshow="true">
   <ExtensionData>
     <Parameter key="unittest.loadlibraries">
       <Value>SALESSUP.YXN1.QA1.LOAD</Value>
+      <Value>SALESSUP.YXN1.DEV1.LOAD</Value>
       <Value>SALESSUP.YXN1.PRD.LOAD</Value>
     </Parameter>
   </ExtensionData>
