@@ -12,7 +12,7 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+      <property key="lpar_tttrunner_lib" value="CSGI.CW.CXGA.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>
@@ -28,7 +28,7 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+      <property key="lpar_tttrunner_lib" value="CSGI.CW.CXGA.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>
